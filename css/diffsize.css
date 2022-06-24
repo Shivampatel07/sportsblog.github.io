@@ -1,0 +1,104 @@
+ @media screen and (max-width : 740px) {
+
+     .nav {
+         max-width: 97vw;
+         flex-wrap: wrap;
+         position: relative;
+         justify-content: space-around;
+     }
+
+     .navbtn li {
+
+         justify-content: space-around;
+         justify-content: space-between 5px;
+
+     }
+
+     .text1 {
+         flex-wrap: wrap;
+         max-width: 95vw;
+         justify-content: center;
+     }
+
+     .content {
+         flex-wrap: wrap;
+         justify-content: space-between;
+         justify-content: space-around;
+     }
+
+     .img1 {
+
+         width: 90vw;
+     }
+
+     .img1 img {
+         margin-left: 30vw;
+         width: 30vw;
+     }
+
+     .te1 {
+         max-width: 70vw;
+     }
+
+     .head1 {
+         text-align: center;
+     }
+
+     .advertise {
+         width: 85vw;
+         height: fit-content;
+
+     }
+
+     .advertise aside {
+         width: 80vw;
+         justify-content: center;
+
+     }
+
+     .pages {
+         position: absolute;
+         left: 30.7vw;
+         display: grid;
+         grid-template-columns: auto auto auto;
+         gap: 0.36vw;
+         background-color: white;
+         padding: 0.3vw;
+         width: 30vw;
+         height: 20px;
+         margin-top: 1.5vh;
+
+     }
+
+     .pages div a {
+         text-decoration: none;
+         color: white;
+     }
+
+     .pages>div {
+         background-color: black;
+         text-align: center;
+         font-size: 3vw;
+         color: white;
+         text-decoration: none;
+         padding: 3px;
+         border-radius: 10px;
+     }
+ }
+
+ @media screen and (max-width : 450px) {
+     .img1 img {
+         margin-left: 25vw;
+         width: 45vw;
+     }
+
+     .nav {
+         max-width: 97.5vw;
+     }
+
+     .image img {
+         max-width: 100vw;
+     }
+
+  
+ }

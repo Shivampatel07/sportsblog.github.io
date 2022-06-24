@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav {
+    background-color: red;
+    position: fixed;
+    width: 98.5vw;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbtn li {
+    list-style: none;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.navbtn li a {
+    padding: 4px 1vw;
+    color: white;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.navbtn li a:hover {
+    color: black;
+}
+
+.search input {
+    margin: 0.35vw;
+    border-radius: 5px;
+    width: 26.8vw;
+
+}
+
+
+.logo h2 {
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+}
